@@ -1,0 +1,40 @@
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+}
+
+.service-card {
+    flex: 0 0 100%;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    max-width: 600px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+}
+.service-image {
+    width: 100%;
+    max-width: 64px;
+    height: auto;
+    margin: 0 auto 16px;
+    display: block;
+    border-radius: 8px;
+  }
+
+/* For tablets (e.g., screen widths from 768px to 1023px) */
+@media (min-width: 768px) {
+    .service-card {
+      flex: 0 0 calc(50% - 16px); 
+    }
+  }
+  
+  /* For desktops (e.g., screen widths from 1024px and up) */
+@media (min-width: 1024px) {
+    .service-card {
+    flex: 0 0 calc(25% - 16px); 
+    }
+}
+  
