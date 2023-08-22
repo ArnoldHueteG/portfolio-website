@@ -1,6 +1,6 @@
 # Portfolio website
 
-This is a project for my portfolio website.
+This is a project for my portfolio website. This is a on-going project, I'm migrating a [wordpress application](https://ahueteg.com/) to this new website.
 
 ## Getting Started
 
